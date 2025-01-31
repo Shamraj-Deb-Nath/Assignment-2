@@ -15,6 +15,7 @@
   nav{
     max-width: 1200px;
     margin: 0 auto;
+
   }
   .navbar {
     display: flex;
@@ -27,6 +28,9 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
+}
+.enroll-feature{
+  margin-right: 300px;
 }
 .menu{
   display: none;
@@ -279,4 +283,75 @@ main{
   font-size: 0.9rem;
   color: #666;
   margin-top: 10px;
+}
+
+/* Small Card Styling */
+.small-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.small-card .text-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.small-card .story-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  margin: 10px 0;
+}
+
+/* Button Styling */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn1 {
+  background: #3CD8E8;
+  color: white;
+}
+#date-label{
+  position: relative;
+  padding: 10px 10px;
+  left: 10px;
+  top: -30px;
+  border-radius: 40px;
+  font-size: 0.7rem;
+  font-weight: 500;
+
+}
+.btn2 {
+  background:#95B226;
+  color: white;
+}
+.btn3 {
+  background: #5D58F0;
+  color: white;
+}
+
+.btn4 {
+  background: #95B226;
+  color: white;
+}
+
+.btn5 {
+  background: #95B226;
+  color: white;
 }

@@ -12,7 +12,7 @@
     margin: 0;
   }
 
-  /* navbar related styles */
+  /* navbar styles */
   nav{
     max-width: 1600px;
     margin: 0 auto;
@@ -28,4 +28,43 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
+}
+.menu{
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+/* orange color */
+.text-home{
+  color: orange;
+}
+/* sky blue color */
+.text-about{
+  color: skyblue;
+}
+/* Facilities color */
+.text-facilities{
+  color: #05D4DF;
+}
+/* Admission color */
+.text-admission{
+  color: #5D58EF;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
 }

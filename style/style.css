@@ -13,7 +13,7 @@
   }
   /* navbar styles */
   nav{
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .navbar {
@@ -220,16 +220,63 @@ main{
   color: white; 
   font-size: 18px;
 }
-
 .arrow-button:hover {
   background-color: darkorange; 
   transform: scale(1.1); 
 }
-
 .left-arrow {
   transform: rotate(0deg); 
 }
-
 .right-arrow {
   transform: rotate(0deg); 
+}
+.our-stories {
+  background-image: url('../assets/bg.png');
+}
+.stories-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+/* stories Grid Container */
+.stories-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; 
+  grid-template-rows: repeat(2, auto); 
+  gap: 20px;
+}
+
+/* Large Card Styling */
+.large-card {
+  grid-column: span 1;
+  grid-row: span 2; 
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.large-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.large-card .text-content {
+  padding: 20px;
+  text-align: left;
+}
+.large-card .story-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+.large-card .story-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
 }
